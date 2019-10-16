@@ -101,4 +101,7 @@ server <- function(input, output, session) {
 
 
 # Run the application 
+runApp('app-5.R')
+
+
 shinyApp(ui = ui, server = server)
