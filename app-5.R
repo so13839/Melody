@@ -1,7 +1,7 @@
 library(plotly)
 library(shiny)
 library(tidyverse)
-library(read_excel)
+library(readxl)
 
 ui <- function(input, output, session) {
     fluidPage(
